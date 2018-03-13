@@ -291,7 +291,7 @@
     </section>
 
     <!-- Free Assessment -->
-    <section id="contact" style="background-image: url(../img/apply.jpg); background-position: bottom right; background-color: #000"">
+    <section id="contact" style=" background-image: url('img/apply.jpg'); background-position: bottom right; background-color: #000"">
       <div class="container">
         
           <div class=" text-center">
@@ -300,15 +300,15 @@
           
         <div class="row">
           <div class="col-lg-12">
-            <form class="data-forge-name" Id="contactForm1" name="sentMessage" novalidate enctype="multipart/form-data">
+            <form class="data-forge-name" Id="contactForm" name="sentMessage" novalidate enctype="multipart/form-data">
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input class="form-control data-forge-name" id="name1" type="text" placeholder="Your Full Name *" value="zee" required data-validation-required-message="Please enter your name.">
+                    <input class="form-control data-forge-name" id="name" type="text" placeholder="Your Full Name *" value="zee" required data-validation-required-message="Please enter your name.">
                     <p class="help-block text-danger"></p>
                   </div>                  
                   <div class="form-group">
-                    <input class="form-control data-forge-name" id="email1" type="email" placeholder="Your Email *" value="u06243@yahoo.com" required data-validation-required-message="Please enter your email address.">
+                    <input class="form-control data-forge-name" id="email" type="email" placeholder="Your Email *" value="zee@hec.epizy.com" required data-validation-required-message="Please enter your email address.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
@@ -341,12 +341,12 @@
                   <div class="row">
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input class="form-control data-forge-name" id="Landline" type="Phone" placeholder="Your Landline">
+                        <input class="form-control data-forge-name" id="Landline" type="Phone" value="434" placeholder="Your Landline">
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="form-group">
-                        <input class="form-control data-forge-name" id="Mobile" type="Phone" placeholder="Your Mobile*" value="0321" required data-validation-required-message="Please enter your Mobile.">
+                        <input class="form-control data-forge-name" id="Phone" type="Phone" placeholder="Your Mobile*" value="0321" required data-validation-required-message="Please enter your Mobile.">
                         <p class="help-block text-danger"></p>
                       </div>
                     </div>
@@ -378,13 +378,13 @@
                   </div>
 
                   <div class="form-group">
-                    <textarea class="form-control data-forge-name" id="message1" placeholder="Your Message"></textarea>
+                    <textarea class="form-control data-forge-name" id="message" placeholder="Your Message">Hi there</textarea>
                     <p class="help-block text-danger"></p>
                   </div>
 
                   <div class="form-group">
                     <label class="btn btn-primary" for="pdf">
-                    <input id="pdf" accept=".pdf" type="file" style="display:none" 
+                    <input id="pdf" accept=".pdf" type="file" multiple="multiple" style="display:none" 
                      onchange="$('#upload-file-info').html(this.files[0].name)">
                      Choose a file to attach (*.pdf)
                     </label>
@@ -394,8 +394,8 @@
 
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
-                  <div id="success1"></div>
-                  <button id="sendMessageButton1" class="btn btn-primary btn-xl text-uppercase" type="submit">Evaluate Now</button>
+                  <div id="success"></div>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Evaluate Now</button>
                 </div>
               </div>
             </form>
@@ -511,27 +511,27 @@
           </div>
         </div>
       </div>
-        <!-- <div class="row">
+        <!--<div class="row">
           <div class="col-lg-12">
             <form class="data-forge-name" Id="contactForm" name="sentMessage" novalidate>
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input class="form-control data-forge-name" id="name" type="text" placeholder="Your Name *" required data-validation-required-message="Please enter your name.">
+                    <input class="form-control data-forge-name" id="name" type="text" placeholder="Your Name *" value="zee" required data-validation-required-message="Please enter your name.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control data-forge-name" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
+                    <input class="form-control data-forge-name" id="email" type="email" placeholder="Your Email *" value="u06243@yahoo.com" required data-validation-required-message="Please enter your email address.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control data-forge-name" id="phone" type="file" placeholder="Your Phone *" required data-validation-required-message="Please enter your phone number.">
+                    <input class="form-control data-forge-name" id="phone" type="phone" placeholder="Your Phone *" value="434" required data-validation-required-message="Please enter your phone number.">
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control data-forge-name" id="message" placeholder="Your Message *" ></textarea>
+                    <textarea class="form-control data-forge-name" id="message" placeholder="Your Message *" >dsa</textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
@@ -543,7 +543,7 @@
               </div>
             </form>
           </div>
-        </div> -->
+        </div>-->
       
     </section>
 
