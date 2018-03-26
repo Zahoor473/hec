@@ -1,0 +1,86 @@
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    -webkit-transition: padding-top 0s, padding-bottom 0s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+
+@media (min-width: 800px) {}
+  #mainNav {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    -webkit-transition: padding-top 0s,padding-bottom 0s;
+    -moz-transition: padding-top .3s,padding-bottom .3s;
+  }
+@media (min-width: 768px) {
+  header.masthead .intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 0px 0;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+
+section#contact_old {
+  background-color: #212529;
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+section#contact_old .section-heading {
+  color: #fff;
+}
+
+
+section#contact_old .form-group input,
+section#contact_old .form-group textarea {
+  padding: 20px;
+}
+
+section#contact_old .form-group input.form-control {
+  height: auto;
+}
+
+section#contact_old .form-group textarea.form-control {
+  height: 248px;
+}
+
+section#contact_old .form-control:focus {
+  border-color: #fed136;
+  box-shadow: none;
+}
+
+section#contact_old::-webkit-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+section#contact_old :-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  /* Firefox 18- */
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+section#contact_old ::-moz-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  /* Firefox 19+ */
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+section#contact_old :-ms-input-placeholder {
+  font-weight: 700;
+  color: #ced4da;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
